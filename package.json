@@ -1,0 +1,29 @@
+{
+  "name": "do-cluster-deploy",
+  "version": "0.1.0",
+  "description": "Deploy to multiple DigitalOcean servers and load-balance between them",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "digitalocean",
+    "deployment",
+    "cluster"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/JonnyBurger/do-cluster-deploy"
+  },
+  "author": "Jonny Burger",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^0.9.0",
+    "bluebird": "^2.9.25",
+    "colors": "^1.1.0",
+    "do-wrapper": "^1.1.3",
+    "simple-ssh": "^0.8.5",
+    "single-line-log": "^0.4.1",
+    "underscore": "^1.8.3"
+  }
+}
